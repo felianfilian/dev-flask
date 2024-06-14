@@ -2,3 +2,16 @@
   max-width: 600px !important;
   padding: 32px 16px;
 }
+
+.my-form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  position: fixed !important;
+  bottom: 32px;
+  left: 80px;
+  right: 80px;
+
+  width: calc(100% -160px);
+}
